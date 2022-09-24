@@ -1,5 +1,5 @@
-const XlsxSampler = require('./XlsxSampler');
 const path = require('path');
+const XlsxSampler = require('./XlsxSampler');
 
 const inputPath = path.join(process.cwd(), "data", "input.xlsx");
 const xlsxHandler = new XlsxSampler(inputPath);

@@ -1,5 +1,5 @@
-const XlsxHandler = require('../../src/XlsxHandler');
 const _ = require('lodash');
+const XlsxHandler = require('../../src/XlsxHandler');
 const { shouldIncludeRow } = require('../../src/filter');
 const { inplaceShuffle } = require('../../src/util');
 

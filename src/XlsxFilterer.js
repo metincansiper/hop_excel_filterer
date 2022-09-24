@@ -1,6 +1,6 @@
-const XlsxHandler = require('./XlsxHandler');
 const _ = require('lodash');
-const { shouldIncludeRow, getIncludedColNames } = require('./filter')
+const XlsxHandler = require('./XlsxHandler');
+const { shouldIncludeRow, getIncludedColNames } = require('./filter');
 
 class XlsxFilterer extends XlsxHandler {
     constructor(inputPath) {

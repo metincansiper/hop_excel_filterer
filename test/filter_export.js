@@ -3,7 +3,6 @@ const assert = require('assert');
 const expect = require('chai').expect
 const path = require('path');
 const _ = require('lodash');
-
 const XlsxFilterer = require('../src/XlsxFilterer');
 const XlsxHandler = require('../src/XlsxHandler');
 const { shouldIncludeRow, getIncludedColNames, shouldIncludeColumn } = require('../src/filter');
