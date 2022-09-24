@@ -1,0 +1,23 @@
+{
+  "name": "hop_excel_filterer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "read-excel-file": "^5.5.0",
+    "xls-to-json": "^2.1.1",
+    "xlsx": "^0.18.5",
+    "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
